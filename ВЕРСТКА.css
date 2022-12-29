@@ -1,0 +1,802 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #ffffff;
+
+}
+
+.container3 {
+
+    width: 608px;
+    height: 912px;
+
+}
+
+.nav {
+    width: 1168px;
+
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 40px 56px;
+}
+
+.panel img {
+    margin: 0 15px 0 15px;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_sign_up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    color: #156963;
+    width: 111px;
+    height: 36px;
+}
+
+.nav_sign_in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    width: 111px;
+    height: 36px;
+    color: white;
+    background: #156963;
+}
+
+main {
+    display: flex;
+
+}
+
+section {
+    display: flex;
+}
+
+.main_inner {
+    width: 100%;
+    height: 582px;
+
+}
+
+.text {
+    margin-top: 186px;
+    margin-right: 72px;
+    margin-left: 77px;
+}
+
+.Kembang {
+
+    width: 523px;
+    height: 166px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 83px;
+    color: #156963;
+}
+
+.Lorem {
+
+    width: 493px;
+    height: 96px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2C1500;
+    opacity: 0.8;
+}
+
+.a {
+    display: flex;
+    margin-top: 110px;
+}
+
+.knopki {
+    margin-left: 91px;
+
+}
+
+.Previous {
+
+    width: 105px;
+    height: 29px;
+    margin-top: 38px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #606060;
+    opacity: 0.9;
+}
+
+.kaktus {
+    margin-top: 13px;
+    width: 208px;
+    height: 39px;
+    left: 699px;
+    top: 663px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+
+}
+
+.knopki2 {
+
+    width: 320px;
+    height: 160px;
+    left: 960px;
+    top: 582px;
+    background: #156963;
+}
+
+.Next {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 57px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #d4d4d4;
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-left: 49px;
+}
+
+.Rahasia {
+    width: 222px;
+    height: 39px;
+    left: 1009px;
+    top: 665px;
+    margin-left: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.container5 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1168px;
+    height: 155px;
+    left: 56px;
+    top: 882px;
+}
+
+.container5 div {
+    padding: 16px 22px;
+}
+
+.one {
+    margin-left: 56px;
+    margin-right: 32px;
+
+    width: 268px;
+    height: 155px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+
+.Fast {
+    display: inline;
+    width: 137px;
+    height: 48px;
+    left: 80px;
+    top: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #156963;
+}
+
+.textFast {
+
+    width: 236px;
+    height: 48px;
+    left: 16px;
+    top: 86px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+
+}
+
+.two {
+    margin-right: 32px;
+    width: 268px;
+    height: 155px;
+    left: 300px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+
+.Great {
+    width: 137px;
+    height: 48px;
+    left: 380px;
+    top: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #156963;
+}
+
+.textGreat {
+    width: 236px;
+    height: 48px;
+    left: 316px;
+    top: 86px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+
+.three {
+    margin-right: 32px;
+    width: 268px;
+    height: 155px;
+    left: 600px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+
+.Original {
+    width: 137px;
+    height: 48px;
+    left: 680px;
+    top: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #156963;
+}
+
+.textOriginal {
+    width: 236px;
+    height: 48px;
+    left: 616px;
+    top: 86px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+
+.four {
+    margin-right: 56px;
+    width: 268px;
+    height: 155px;
+    left: 900px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+
+.Affordable {
+    width: 137px;
+    height: 48px;
+    left: 980px;
+    top: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #156963;
+}
+
+.textAffordable {
+
+    width: 236px;
+    height: 48px;
+    left: 916px;
+    top: 86px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+
+.Featured {
+    margin-top: 83px;
+    margin-left: 56px;
+    margin-bottom: 19px;
+    width: 162px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.kak {
+    margin-top: 24px;
+    margin-left: 56px;
+}
+
+.plant {
+    width: 110px;
+    height: 20px;
+    left: 109px;
+    top: 1421px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.kaktusID {
+    width: 91px;
+    height: 20px;
+    left: 119px;
+    top: 1449px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.landak {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.lan {
+    width: 115px;
+    height: 20px;
+    left: 344px;
+    top: 1421px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.landakID {
+    width: 97px;
+    height: 20px;
+    left: 353px;
+    top: 1449px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.Kecubung {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.Kec {
+    width: 139px;
+    height: 20px;
+    left: 569px;
+    top: 1421px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.KecubungID {
+    width: 91px;
+    height: 20px;
+    left: 593px;
+    top: 1449px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.Plants {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.Kecubun {
+    width: 139px;
+    height: 20px;
+    left: 806px;
+    top: 1421px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.KecubunID {
+    width: 91px;
+    height: 20px;
+    left: 830px;
+    top: 1449px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.Plan {
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.Pla {
+    width: 139px;
+    height: 20px;
+    left: 1043px;
+    top: 1421px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.PlanID {
+    width: 91px;
+    height: 20px;
+    left: 1067px;
+    top: 1449px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.footer_inner {
+    border-top: #156963 2px solid;
+    display: flex;
+}
+
+.container {
+    margin-top: 60px;
+    margin-left: 167px;
+    margin-bottom: 71px;
+}
+
+.plantku {
+    text-transform: uppercase;
+    color: #156963;
+    ;
+    font-family: 'Poppins';
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.Plantku {
+    width: 115px;
+    height: 19px;
+    font-family: 'Work Sans';
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.Jl {
+    width: 282px;
+    height: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.container_2 {
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 126px;
+}
+
+.Perusahaan {
+    width: 92px;
+    height: 16px;
+    left: 362px;
+    font-family: 'Work Sans';
+    font-style: bold;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.Tentang Kami {
+    width: 93px;
+    height: 16px;
+    left: 362px;
+    top: 36px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.Hubungi Kami {
+    width: 95px;
+    height: 16px;
+    left: 362px;
+    top: 66px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.container_3 {
+    margin-top: 60px;
+    margin-left: 83px;
+    margin-bottom: 126px;
+}
+
+.Produk {
+    width: 56px;
+    height: 16px;
+
+    font-family: 'Work Sans';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.Tanaman {
+    width: 62px;
+    height: 16px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.container_4 {
+    margin-top: 60px;
+    margin-left: 119px;
+    margin-bottom: 110px;
+}
+
+.Berlangganan {
+    width: 199px;
+    height: 16px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.Masukan {
+    width: 134px;
+    height: 16px;
+    left: 13px;
+    top: 38px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+    width: 234px;
+    height: 32px;
+    left: 0px;
+    top: 30px;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+}
+
+.Submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 51px;
+    height: 22px;
+    background: #156963;
+    backdrop-filter: blur(5px);
+    border-radius: 2px;
+    color: #ffffff;
+    box-sizing: content-box;
+}
+
+.Buy {
+    margin-left: 57px;
+    margin-top: 90px;
+}
+
+.morePlants {
+    width: 522px;
+    height: 112px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2C1500;
+}
+
+.textMorePlants {
+    margin-top: 16pxs;
+    width: 506.69px;
+    height: 140px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C1500;
+    opacity: 0.8;
+}
+
+.Buy img {
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+
+.PhotoPlant {
+    width: 513px;
+    height: 609px;
+    margin-top: 80px;
+    margin-right: 57px;
+    margin-bottom: 80px;
+    margin-left: 78px;
+}
+
+.shop {
+    max-width: 1168px;
+    height: 360px;
+    top: 2239px;
+    background: #F3F4F6;
+}
+
+.favourites {
+    margin-top: 88px;
+    margin-left: 97px;
+    width: 585px;
+    height: 112px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2C1500;
+}
+
+.Visitshop {
+    margin-top: 32px;
+    margin-left: 97px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 152px;
+    height: 40px;
+    background: #156963;
+    width: 68px;
+    height: 20px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FAFEFE;
+}
+
+.zvetok {
+    height: 360px;
+    width: 480px;
+}
+
+.last-elem {
+    margin: 0 56px;
+    margin-bottom: 80px;
+}
